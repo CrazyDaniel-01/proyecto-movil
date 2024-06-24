@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4962843087",
+    "project_id": "fotomultap",
+    "storage_bucket": "fotomultap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4962843087:android:6f4d6264a31aac2d51baba",
+        "android_client_info": {
+          "package_name": "com.proyectomovil.snorb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNoQUdqEG0cIM_pSUkqhk4KigOkwX1btw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

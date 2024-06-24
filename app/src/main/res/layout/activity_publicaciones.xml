@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityPublicaciones">
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título de la publicación" />
+
+    <EditText
+        android:id="@+id/editTextContenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contenido de la publicación"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/buttonPublicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publicar" />
+
+    <ListView
+        android:id="@+id/listViewPublicaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
